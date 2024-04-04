@@ -1,0 +1,15 @@
+package one.digitalinnovation.gof.desafiocodigo;
+
+public class UserManager {
+
+	public static void listUsers() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void addUser(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

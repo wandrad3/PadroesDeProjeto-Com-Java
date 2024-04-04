@@ -1,0 +1,25 @@
+package one.digitalinnovation.gof.desafiocodigo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserManager {
+
+	public static List<User> users = new ArrayList<>();
+	
+	public static void listUsers() {
+		
+		users.stream().forEach(x -> System.out.println((x.getId()+1) + "-" + x.getName()));
+
+	}
+
+	public static List<User> addUser(String name) {
+		
+		int cont = users.size();
+		User user = new User(cont++, name);
+		users.add(user);
+		
+		return users;
+	}
+
+}

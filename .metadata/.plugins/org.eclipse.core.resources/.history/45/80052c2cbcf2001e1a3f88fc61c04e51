@@ -1,0 +1,18 @@
+package dio.com.utils;
+
+public class  CurrencyAdapter {
+    private final OldCurrencyConverter oldConverter;
+
+    public CurrencyAdapter(OldCurrencyConverter oldConverter) {
+        this.oldConverter = oldConverter;
+    }
+
+    public double convertUSDtoEUR(double amount) {
+        // Converter USD para GBP usando a antiga conversão
+        double gbpAmount = oldConverter.convertUSDtoGBP(amount);
+        
+        double eurAmount = gbpAmount * 0.85; // 1 GBP = 1.0625 EUR
+        return eurAmount;
+    }
+
+}

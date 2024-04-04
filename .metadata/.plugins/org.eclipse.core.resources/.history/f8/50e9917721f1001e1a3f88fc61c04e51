@@ -1,0 +1,25 @@
+package one.digitalinnovation.gof;
+
+
+/**
+ * Sigleton "preguiçoso"
+ * @author wandrad3_
+ */
+public class SingletonEager {
+
+	private static SingletonEager instancy;
+
+	private SingletonEager() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static SingletonEager getInstacy() {
+		
+		if(instancy == null) {
+			instancy = new SingletonEager();
+		}
+		return instancy;
+	}
+	
+}

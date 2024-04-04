@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TenPercentDiscount.java&apos; to &apos;com.dio.interfaces.impl.TenPercentDiscount.java&apos;&#x0D;&#x0A;- Original project: &apos;lab-padroes-strategy-desafio-carrinho&apos;&#x0D;&#x0A;- Destination element: &apos;com.dio.interfaces.impl.TenPercentDiscount.java&apos;&#x0D;&#x0A;- Original element: &apos;com.dio.interfaces.impl.TenPercentDiscount.java&apos;" description="Copy compilation unit" destination="/src&lt;com.dio.interfaces.impl{TenPercentDiscount.java" element1="/src&lt;com.dio.interfaces.impl{TenPercentDiscount.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712258425252" units="1" version="1.0"/>
+</session>

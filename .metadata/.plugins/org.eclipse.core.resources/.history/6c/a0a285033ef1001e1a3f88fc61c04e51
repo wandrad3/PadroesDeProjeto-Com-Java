@@ -1,0 +1,13 @@
+package com.dio.gof.service;
+
+import com.dio.gof.model.Cliente;
+import com.dio.gof.model.Endereco;
+
+public interface EnderecoService {
+
+	Iterable<Endereco> buscarTodos();
+	Cliente buscarPorId(String cep);
+	void inserir(Endereco endereco);
+	void atualizar(String cep, Endereco endereco);
+	void deletar(String cep);
+}

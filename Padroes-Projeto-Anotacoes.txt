@@ -1,0 +1,36 @@
+Padrões de projeto
+
+Gang of four (Design Patterns) - Pesquisa
+
+
+Criacionais: Singleton
+comportamentais: Strategy
+Estruturais: Facade
+
+
+Sigleton: Uma instancia criada de forma unica. E fornecer o mode para recupera-la. Prove sempre a mesma instancia dela mesma. O objeto é reutilizado sem a necessidade de realocação de memória
+
+Roteiro
+
+xqConstrutor privado
+
+
+Strategy; Simplificar a variação de algoritmos para a resolução de um mesmo problema
+
+
+Uma interface provê o contrato para os demais métodos
+
+
+Facade
+Prover uma interface que reduza a complexidade nas integrações com subsistemas
+
+
+Spring
+
+Singleton: @Bean e @Autowired (Instancias de classes javaa objetos gerenciados em memoria respeitando o padrão de projeto singleton, otimizando memoria)
+Strategy: @Servie @Repository - Annotations da camada de serviço implementação concreta de uma camada de negocio. Interface e abstração da camada de persistencia
+Facade: Abstrair a complexidade de integrações. API Rest SpringDataJPA e ViaCEP (Feign)
+
+
+Database em memoria H2
+

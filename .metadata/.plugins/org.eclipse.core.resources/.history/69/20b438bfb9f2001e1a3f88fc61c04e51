@@ -1,0 +1,25 @@
+package com.dio.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.dio.interfaces.DiscountStrategy;
+
+public class ShoppingCart {
+
+	 private List<Double> products = new ArrayList<>();
+	    private DiscountStrategy discountStrategy;
+
+	    public void addProduct(double price) {
+	        products.add(price);
+	    }
+
+	    public void setDiscountStrategy(DiscountStrategy discountStrategy) {
+	        this.discountStrategy = discountStrategy;
+	    }
+
+	    public double calculateTotal() {
+	        // TODO: Implementar a lógica de cálculo do total
+	        return 0.0;  // Retornar o total calculado
+	    }
+}
